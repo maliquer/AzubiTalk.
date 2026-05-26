@@ -1,0 +1,188 @@
+[
+  {
+    "id": 1,
+    "title": "Kann ich eine Ausbildung mit Fachabitur machen?",
+    "content": "Welche Möglichkeiten habe ich mit Fachabitur und welche Ausbildungsberufe passen dazu?",
+    "votes": 36,
+    "author": {
+      "first_name": "Tom",
+      "last_name": "Becker",
+      "username": "tom_b"
+    },
+    "created_at": "2026-05-20T14:32:00",
+    "answer_count": 3,
+    "category": "None",
+    "tags": [
+      "Schule",
+      "Karriere",
+      "Fachabitur"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Wie schwer ist die Ausbildung zum Fachinformatiker?",
+    "content": "Ich interessiere mich für IT, bin aber nicht besonders gut in Mathe. Reicht das trotzdem aus?",
+    "votes": 18,
+    "author": {
+      "first_name": "Lukas",
+      "last_name": "Wagner",
+      "username": "lukasw"
+    },
+    "created_at": "2026-05-18T09:15:00",
+    "answer_count": 7,
+    "category": "IT",
+    "tags": [
+      "IT",
+      "Ausbildung",
+      "Fachinformatiker:in"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Was verdient man im ersten Lehrjahr Elektrotechnik?",
+    "content": "Mich würde interessieren, wie hoch die Ausbildungsvergütung ungefähr ist.",
+    "votes": 13,
+    "author": {
+      "first_name": "Leila",
+      "last_name": "El Idrissi",
+      "username": "leilaleila"
+    },
+    "created_at": "2026-05-16T17:42:00",
+    "answer_count": 5,
+    "category": "Technik",
+    "tags": [
+      "Gehalt",
+      "Elektroniker:in",
+      "Lehrjahr"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Wie läuft ein Bewerbungsgespräch für eine Ausbildung ab?",
+    "content": "Ich habe nächste Woche mein erstes Vorstellungsgespräch und bin ziemlich nervös.",
+    "votes": 45,
+    "author": {
+      "first_name": "Emilio",
+      "last_name": "Gomez",
+      "username": "emmi"
+    },
+    "created_at": "2026-05-14T11:20:00",
+    "answer_count": 9,
+    "category": "None",
+    "tags": [
+      "Bewerbung",
+      "Vorstellungsgespräch",
+      "Karriere"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Lohnt sich eine Ausbildung oder lieber studieren?",
+    "content": "Ich bin mir unsicher, ob ich direkt studieren oder zuerst eine Ausbildung machen soll.",
+    "votes": 52,
+    "author": {
+      "first_name": "Sofia",
+      "last_name": "Petrova",
+      "username": "sofia_p"
+    },
+    "created_at": "2026-05-12T20:05:00",
+    "answer_count": 14,
+    "category": "None",
+    "tags": [
+      "Studium",
+      "Ausbildung",
+      "Karriere"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Welche Noten braucht man für eine Bankausbildung?",
+    "content": "Reicht ein durchschnittlicher Realschulabschluss aus oder achten Banken stark auf Noten?",
+    "votes": 9,
+    "author": {
+      "first_name": "Max",
+      "last_name": "Schneider",
+      "username": "max_s"
+    },
+    "created_at": "2026-05-11T08:48:00",
+    "answer_count": 4,
+    "category": "Bankwesen",
+    "tags": [
+      "Bank",
+      "Schule",
+      "Bewerbung"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Wie finde ich einen guten Ausbildungsbetrieb?",
+    "content": "Woran erkennt man, ob ein Betrieb Azubis gut behandelt und ordentlich ausbildet?",
+    "votes": 27,
+    "author": {
+      "first_name": "Yasmin",
+      "last_name": "Khan",
+      "username": "yas_k"
+    },
+    "created_at": "2026-05-09T16:11:00",
+    "answer_count": 6,
+    "category": "None",
+    "tags": [
+      "Ausbildungsbetrieb",
+      "Karriere",
+      "Tipps"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Kann man während der Ausbildung BAföG bekommen?",
+    "content": "Ich ziehe eventuell für die Ausbildung in eine andere Stadt und brauche finanzielle Unterstützung.",
+    "votes": 21,
+    "author": {
+      "first_name": "Kevin",
+      "last_name": "Müller",
+      "username": "anna_mu"
+    },
+    "created_at": "2026-05-07T13:54:00",
+    "answer_count": 8,
+    "category": "None",
+    "tags": [
+      "BAföG",
+      "Finanzen",
+      "Ausbildung"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Ich wollte",
+    "content": "mal testen ",
+    "votes": 7,
+    "author": {
+      "first_name": "Community",
+      "last_name": "User",
+      "username": "username"
+    },
+    "created_at": "2026-05-24T14:06:09.060903",
+    "answer_count": 0,
+    "category": "Pflege",
+    "tags": [
+      "Neu"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "why",
+    "content": "oh why",
+    "votes": 7,
+    "author": {
+      "first_name": "Community",
+      "last_name": "User",
+      "username": "username"
+    },
+    "created_at": "2026-05-24T14:08:09.357443",
+    "answer_count": 0,
+    "category": "Pflege",
+    "tags": [
+      "Neu"
+    ]
+  }
+]
