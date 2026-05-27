@@ -30,6 +30,7 @@ def add_post():
     posts = load_posts() #vv
     title = request.form["title"]
     content = request.form["content"]
+    tags = request.form.getlist("tags")
 
     #new post dann im json-Format hinzufügen
     new_post = {
@@ -45,7 +46,7 @@ def add_post():
         "created_at": datetime.datetime.now().isoformat(),
         "answer_count": 0,
         "category": request.form.get("category", "None"), #bei Post-Erstellung einbinden, dass Kategorie wählbar ist
-        "tags": ["Neu"], #genauso
+        "tags": tags,
     }
 
  #   posts.append({

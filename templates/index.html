@@ -198,7 +198,6 @@ href="{{ url_for('static', filename='style.css') }}">
             </small>
 
 
-            # added kategorie-abfrage beim post erstellen
             <h2>Wähle die passende Kategorie</h2>
 
             <select name="category">
@@ -210,6 +209,37 @@ href="{{ url_for('static', filename='style.css') }}">
                 <option value="Medien">Medien</option>
                 <option value="Bankwesen">Bankwesen</option>
             </select>
+
+
+            <h2>Tags</h2>
+            <button type="button" id="toggle-tags-btn">Tags hinzufügen</button>
+
+            <div id="tag-selector" style="display:none; flex-wrap:wrap; gap:12px; margin-top:10px;">
+                <button type="button" class="tag-btn" data-value="Berufsorientierung">Berufsorientierung</button>
+                <button type="button" class="tag-btn" data-value="Karriere">Karriere</button>
+                <button type="button" class="tag-btn" data-value="Ausbildung">Ausbildung</button>
+                <button type="button" class="tag-btn" data-value="Gehalt">Gehalt</button>
+                <button type="button" class="tag-btn" data-value="Bewerbung">Bewerbung</button>
+                <button type="button" class="tag-btn" data-value="Berufsschule">Berufsschule</button>
+                <button type="button" class="tag-btn" data-value="Prüfung">Prüfung</button>
+                <button type="button" class="tag-btn" data-value="Lerntipps">Tipps</button>
+                <button type="button" class="tag-btn" data-value="Praktikum">Praktikum</button>
+                <button type="button" class="tag-btn" data-value="Berichtsheft">Berichtsheft</button>
+                <button type="button" class="tag-btn" data-value="IHK">IHK</button>
+                <button type="button" class="tag-btn" data-value="Lerngruppe">Lerngruppe</button>
+                <button type="button" class="tag-btn" data-value="Fachinformatiker">Fachinformatiker</button>
+                <button type="button" class="tag-btn" data-value="Anwendungsentwicklung">Anwendungsentwicklung</button>
+                <button type="button" class="tag-btn" data-value="Systemintegration">Systemintegration</button>
+                <button type="button" class="tag-btn" data-value="Python">Python</button>
+                <button type="button" class="tag-btn" data-value="HTML-CSS">HTML-CSS</button>
+                <button type="button" class="tag-btn" data-value="Linux">Linux</button>
+                <button type="button" class="tag-btn" data-value="Java">Java</button>
+                <button type="button" class="tag-btn" data-value="Offtopic">Offtopic</button>
+
+            </div>
+
+
+            <div id="tag-inputs"></div>
             
 
             <div class="form-actions">
@@ -307,6 +337,35 @@ href="{{ url_for('static', filename='style.css') }}">
                 } else {
                     link.style.display = "none";
                 }
+            });
+        });
+    });
+    </script>
+
+
+    <!-- Tags Script -->
+
+    <script>
+    document.getElementById("toggle-tags-btn").addEventListener("click", function() {
+        const selector = document.getElementById("tag-selector");
+        const open = selector.style.display === "flex";
+        selector.style.display = open ? "none" : "flex";
+        this.innerText = open ? "Tags hinzufügen" : "Tags schließen";
+    });
+
+    document.querySelectorAll(".tag-btn").forEach(button => {
+        button.addEventListener("click", function() {
+            this.classList.toggle("active");
+
+            // versteckte Inputs aktualisieren
+            const tagInputs = document.getElementById("tag-inputs");
+            tagInputs.innerHTML = "";
+            document.querySelectorAll(".tag-btn.active").forEach(btn => {
+                const input = document.createElement("input");
+                input.type = "hidden";
+                input.name = "tags";
+                input.value = btn.dataset.value;
+                tagInputs.appendChild(input);
             });
         });
     });

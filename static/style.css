@@ -305,6 +305,22 @@ a {
     background: #dbeafe;
 }
 
+#toggle-tags-btn {
+    padding: 8px 14px;
+    border-radius: 30px;
+    border: 1px solid #ddd;
+    background: white;
+    cursor: pointer;
+    transition: 0.2s;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+#toggle-tags-btn:hover {
+    background: #2563eb;
+    color: white;
+}
+
 
 /* META */
 
